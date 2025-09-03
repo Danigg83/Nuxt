@@ -4,5 +4,7 @@ export default defineNuxtRouteMiddleware((to) => {
   if (to.path === '/item/2') {
     return navigateTo('/')
   }
+
+ 
 })
   

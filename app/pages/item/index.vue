@@ -5,7 +5,7 @@
   </div>
     <ul class="m-4">
       <li v-for="item in itemsStore.items" :key="item.id">
-        <NuxtLink :to="`/item/${item.id}`">{{ item.name }}</NuxtLink>
+        <NuxtLink :to="`/item/${item.id}`" >{{ item.name }} <span v-if="item.id == 2">( prueba de redireccion a / )</span></NuxtLink>
       </li>
     </ul>
   </div>
