@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blue-500 text-white p-4">
+  <div class="bg-lime-500 text-white p-4">
     <h1 class="text-2xl font-bold">Página Account</h1>
   </div>
 
@@ -8,13 +8,13 @@
     <div class="md:w-1/2 flex flex-col gap-3">
       <NuxtLink
         to="/acount/login"
-        class="bg-white text-blue-500 font-semibold px-4 py-2 rounded hover:bg-blue-100 transition text-center"
+        class="bg-white text-lime-800 font-semibold px-4 py-2 rounded hover:bg-lime-100 transition text-center"
       >
         Login
       </NuxtLink>
       <NuxtLink
         to="/acount/register"
-        class="bg-white text-blue-500 font-semibold px-4 py-2 rounded hover:bg-blue-100 transition text-center"
+        class="bg-white text-lime-800 font-semibold px-4 py-2 rounded hover:bg-lime-100 transition text-center"
       >
         Register
       </NuxtLink>

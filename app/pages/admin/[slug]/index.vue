@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-blue-500 text-white p-4 rounded">
+    <div class="bg-green-500 text-white p-4 rounded">
       <h1>Página admin de: {{ slug }}</h1>
     </div>
   </div>
