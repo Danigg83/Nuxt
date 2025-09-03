@@ -24,7 +24,7 @@
       <NuxtLink to="/admin/empresa/show" class="px-3 py-2 rounded hover:bg-green-200 transition">Empresa Show</NuxtLink>
     </li>
     <li>
-      <NuxtLink to="/gallery" class="px-3 py-2 rounded hover:bg-green-200 transition">gallery</NuxtLink>
+      <NuxtLink to="/gallery" class="px-3 py-2 rounded hover:bg-amber-200 transition">gallery</NuxtLink>
     </li>
     <li>
       <NuxtLink to="/contacto" class="px-3 py-2 rounded hover:bg-green-200 transition">Contacto</NuxtLink>
