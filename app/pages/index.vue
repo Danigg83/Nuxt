@@ -1,9 +1,10 @@
 <template>
     <div class="bg-blue-500 text-white p-4">
       <h1>Página principal</h1>
-      <p>
-      <input class="bg-sky-950" type="text" v-model="Radio"> ->
-      {{ Area }} m2
+      <h3 class="text-3xl font-extrabold m-4">Calcular area</h3>
+      <p  class="text-xl font-extrabold ">
+        Radio <input class="bg-sky-950 text-xl p-2" type="text" v-model="Radio"> m = 
+      {{ Area }} m²
       </p>
   </div>
 </template>

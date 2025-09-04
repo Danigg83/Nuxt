@@ -36,3 +36,9 @@ a.router-link {
     @apply bg-lime-700 text-white;
   }
   
+
+  /* .item-show::after {
+    content: "→ id";      
+    margin-left: 5px;  
+    color: currentColor; 
+  } */

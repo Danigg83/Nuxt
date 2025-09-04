@@ -12,7 +12,7 @@
           'bg-yellow-500': msg.type === 'warning'
         }"
       >
-        {{ msg.text }} {{ msg.id }}
+        {{ msg.text }} <!-- {{ msg.id }} -->
         <button class="ml-2" @click="flash.removeMessage(msg.id)">✖</button>
       </div>
     </div>

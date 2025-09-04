@@ -9,9 +9,9 @@ export default defineNuxtRouteMiddleware((to) => {
     /* flash.addMessage('Operación correcta ✅', 'success')
     flash.addMessage('Ha ocurrido un error ❌', 'error')
     flash.addMessage('Cuidado ⚠️', 'warning') */
-    flash.addMessage('No puedes acceder al item 2, redirigido al inicio 🚀', 'warning')
+    flash.addMessage('No puedes acceder al item 2, redirigido al item list 🚀', 'warning')
 
-    return navigateTo('/')
+    return navigateTo('/item')
   }
 
  
