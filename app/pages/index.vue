@@ -14,14 +14,14 @@
     <p v-if="error" class="text-red-200 font-bold mt-2">{{ error }}</p>
   </div>
 
-  <div>
+  <!-- <div>
     <h1>Lista de Items</h1>
     <p v-if="loading">Cargando...</p>
     <p v-else-if="errorItem">{{ error }}</p>
     <ul v-else>
       <li v-for="i in items" :key="i.id">{{ i.name }}</li>
     </ul>
-  </div>
+  </div> -->
 </template>
 
 <script setup lang="ts">
@@ -35,9 +35,9 @@ const Area = computed(() => {
   return calculateCircleArea(numero)
 })
 
-const { items, loading, errorItem, fetchItems } = useFetchItems()
+/* const { items, loading, errorItem, fetchItems } = useFetchItems()
+onMounted(fetchItems) */
 
-onMounted(fetchItems)
 watch(Radio, (val) => {
 
   const numero = Number(val)
