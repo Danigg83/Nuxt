@@ -7,6 +7,7 @@
     <!-- Columna de botones -->
     <div class="md:w-1/2 flex flex-col gap-3">
       <NuxtLink
+        v-if="!userStore.session"
         to="/account/login"
         class="bg-white text-lime-800 font-semibold px-4 py-2 rounded hover:bg-lime-100 transition text-center"
       >
@@ -40,4 +41,5 @@
 </template>
 
 <script setup>
+const userStore = useUserStore()
 </script>

@@ -31,6 +31,7 @@ useHead({
   ]
 })
 
+
 import { useFlashStore } from '~/stores/flash'
 
 const flash = useFlashStore()

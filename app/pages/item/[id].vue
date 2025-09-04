@@ -26,7 +26,7 @@ const itemsStore = useItemsStore()
 
 onMounted(async () => {
   item.value = await itemsStore.fetchItemById(id)
-  console.log('Item cargado:', item.value);
+  //console.log('Item cargado:', item.value);
   
 })
 </script>

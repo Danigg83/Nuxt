@@ -5,7 +5,7 @@ import { useSupabase } from '~/composables/useSupabase'
 export default defineNuxtRouteMiddleware(async (to) => {
   const supabase = useSupabase()
   const flash = useFlashStore()
-console.log('Auth middleware path:', to.path);
+//console.log('Auth middleware path:', to.path);
 
   // Obtener sesión actual
   const { data: { session } } = await supabase.auth.getSession()

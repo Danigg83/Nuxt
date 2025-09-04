@@ -20,7 +20,7 @@ export const useItemsStore = defineStore('items', {
 
     // Traer un item específico por ID
     async fetchItemById(id: number) {
-      console.log('Fetching item with ID:', id);
+      //console.log('Fetching item with ID:', id);
       
       const res = await fetch('/data.json')
       const data: { items: Item[] } = await res.json()

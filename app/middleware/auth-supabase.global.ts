@@ -8,7 +8,7 @@ export default defineNuxtRouteMiddleware(async (to) => {
   const supabase = useSupabase()
   const { data: { session } } = await supabase.auth.getSession()
 
-  console.log('Auth-Supabase Global middleware path:', to.path, ' | Session:', session)
+  //console.log('Auth-Supabase Global middleware path:', to.path, ' | Session:', session)
 
   // Si intenta acceder a register/login estando logueado → redirige a /admin
   if ((to.path === '/account/register' || to.path === '/account/login') && session) {
