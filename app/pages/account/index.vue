@@ -2,9 +2,9 @@
     <div>
         
       <div class="bg-lime-400 p-4 rounded">
-        <h1>Register</h1>
+        <h2>Seleccione una opcion</h2>
+        <h3>Esta es la página específica /account/index </h3>
       </div>
-      <h2>Esta es la página específica /acount/register </h2>
     </div>
   </template>
   

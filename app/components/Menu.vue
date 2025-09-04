@@ -58,7 +58,7 @@
         <NuxtLink to="/contacto" class="px-3 py-2 rounded hover:bg-blue-200 transition">Contacto</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/acount" class="px-3 py-2 rounded hover:bg-lime-200 transition">Acount</NuxtLink>
+        <NuxtLink to="/account" class="px-3 py-2 rounded hover:bg-lime-200 transition">account</NuxtLink>
       </li>
       <li>
         <NuxtLink to="/admin" class="px-3 py-2 rounded hover:bg-blue-200 transition">Admin</NuxtLink>

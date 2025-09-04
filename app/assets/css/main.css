@@ -10,7 +10,7 @@ a.router-link {
   .admin-menu a.router-link:hover {
     @apply bg-green-200;
   }
-  .link-acount a.router-link:hover {
+  .link-account a.router-link:hover {
     @apply bg-lime-200;
   }
   
@@ -21,7 +21,7 @@ a.router-link {
   .admin-menu a.router-link-active {
     @apply bg-green-500 text-white;
   }
-  .link-acount a.router-link-active {
+  .link-account a.router-link-active {
     @apply bg-lime-500 text-white;
   }
   
@@ -32,7 +32,7 @@ a.router-link {
   .admin-menu a.router-link-exact-active {
     @apply bg-green-700 text-white;
   }
-  .link-acount a.router-link-exact-active {
+  .link-account a.router-link-exact-active {
     @apply bg-lime-700 text-white;
   }
   
