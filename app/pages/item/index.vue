@@ -5,6 +5,7 @@
       <li v-for="item in items" :key="item.id">
         <NuxtLink :to="`/item/${item.id}`">
           {{ item.name }}
+          <!-- {{ item }} -->
         </NuxtLink>
       </li>
     </ul>

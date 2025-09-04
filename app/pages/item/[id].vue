@@ -3,18 +3,7 @@
     <div class="bg-blue-500 text-white p-4">
       <h1>Detalle del Item: {{ item?.name || 'Cargando...' }}</h1>
     </div>
-    <div class="p-4" v-if="item">
-      <p><strong>ID del item:</strong> {{ item.id }}</p>
-      <p><strong>Nombre:</strong> {{ item.name }}</p>
-      <p><strong>Descripción:</strong> {{ item.descripcion }}</p>
-      <br>
-      <hr>
-      <br>
-      <NuxtLink to="/item">Volver a la lista</NuxtLink>
-    </div>
-    <div class="p-4" v-else>
-      Cargando item...
-    </div>
+    <ItemShow :item="item" />
   </div>
 </template>
 
