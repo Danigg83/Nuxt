@@ -19,10 +19,10 @@
       
       <div class="mt-6 text-center">
         <NuxtLink
-          to="/"
+          to="/admin"
           class="inline-block px-6 py-2 bg-green-600 text-white font-semibold rounded-lg shadow hover:bg-green-700 transition"
         >
-          Volver al Inicio
+          Volver al admin
         </NuxtLink>
       </div>
     </div>
