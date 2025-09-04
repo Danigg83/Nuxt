@@ -1,40 +1,40 @@
 <template>
-    <div class="bg-blue-500 text-white p-4">
-    
-        <h1 class="text-2xl font-bold">Prueba de GSAP</h1>
+  <div class="flex flex-col md:flex-row gap-4 p-4">
+    <!-- Columna de menú -->
+    <div class="md:w-1/4 flex flex-col gap-3">
+      <NuxtLink
+        to="/animation"
+        class="bg-sky-600 text-white px-4 py-2 rounded hover:bg-sky-500 text-center"
+      >
+        Inicio
+      </NuxtLink>
+      <NuxtLink
+        to="/animation/gsap-test"
+        class="bg-sky-600 text-white px-4 py-2 rounded hover:bg-sky-500 text-center"
+      >
+      gsap-test
+      </NuxtLink>
+      <NuxtLink
+        to="/animation/gsap-scroll"
+        class="bg-sky-600 text-white px-4 py-2 rounded hover:bg-sky-500 text-center"
+      >
+      gsap-scroll
+      </NuxtLink>
+      <NuxtLink
+        to="/animation/gsap-buttons"
+        class="bg-sky-600 text-white px-4 py-2 rounded hover:bg-sky-500 text-center"
+      >
+      gsap-buttons
+      </NuxtLink>
     </div>
-    <div class="p-8">
 
-      <div ref="box" class="w-32 h-32 bg-blue-500"></div>
-      <button @click="animar" class="mt-4 px-4 py-2 bg-green-500 text-white rounded">
-        Animar
-      </button>
+    <!-- Columna de contenido dinámico -->
+    <div class="md:w-3/4">
+      <NuxtPage />
     </div>
-  </template>
-  
-  <script setup lang="ts">
-  import { ref, onMounted } from 'vue'
-  import gsap from 'gsap'
-  
-  const box = ref<HTMLDivElement | null>(null)
-  
-  const animar = () => {
-    if (!box.value) return
-  
-    gsap.to(box.value, {
-      x: 300,
-      rotation: 360,
-      duration: 2,
-      ease: "power2.out",
-    })
-  }
-  
-  onMounted(() => {
-    console.log('GSAP cargado:', gsap)
-  })
-  </script>
-  
-  <style scoped>
-  /* opcional: estilos para centrar la caja */
-  </style>
-  
+  </div>
+</template>
+
+<script setup>
+// No necesitas nada por ahora
+</script>
