@@ -1,0 +1,38 @@
+/* Estilos base para TODOS los NuxtLink */
+a.router-link {
+    @apply px-3 py-2 rounded transition;
+    &:hover {
+      @apply bg-blue-200;
+    }
+  }
+  
+  /* Menús específicos */
+  .admin-menu a.router-link:hover {
+    @apply bg-green-200;
+  }
+  .link-acount a.router-link:hover {
+    @apply bg-lime-200;
+  }
+  
+  /* Cuando está activa */
+  a.router-link-active {
+    @apply bg-blue-500 text-white;
+  }
+  .admin-menu a.router-link-active {
+    @apply bg-green-500 text-white;
+  }
+  .link-acount a.router-link-active {
+    @apply bg-lime-500 text-white;
+  }
+  
+  /* Cuando está exactamente activa */
+  a.router-link-exact-active {
+    @apply bg-blue-700 text-white;
+  }
+  .admin-menu a.router-link-exact-active {
+    @apply bg-green-700 text-white;
+  }
+  .link-acount a.router-link-exact-active {
+    @apply bg-lime-700 text-white;
+  }
+  

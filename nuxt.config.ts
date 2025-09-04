@@ -1,15 +1,13 @@
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
-  css: ['~/assets/css/tailwind.css'],
+  css: [
+    '~/assets/css/tailwind.css',
+    '~/assets/css/main.css'
+  ],
   postcss: {
     plugins: {
       tailwindcss: {},
-      autoprefixer: {},
-    },
+      autoprefixer: {}
+    }
   },
-  devtools: { enabled: true },
-  modules: [
-    '@nuxt/content',
-    '@pinia/nuxt',
-  ],
+  modules: ['@nuxt/content', '@pinia/nuxt']
 })

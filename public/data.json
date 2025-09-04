@@ -1,0 +1,12 @@
+{
+  "items": [
+    { "id": 1, "name": "Componente A", "descripcion": "Descripción del componente A" },
+    { "id": 2, "name": "Componente B", "descripcion": "Descripción del componente B" },
+    { "id": 3, "name": "Componente C", "descripcion": "Descripción del componente C" },
+    { "id": 4, "name": "Componente D", "descripcion": "Descripción del componente D" },
+    { "id": 5, "name": "Componente E", "descripcion": "Descripción del componente E" },
+    { "id": 6, "name": "Componente F", "descripcion": "Descripción del componente F" },
+    { "id": 7, "name": "Componente G", "descripcion": "Descripción del componente G" },
+    { "id": 8, "name": "Componente H", "descripcion": "Descripción del componente H" }
+  ]
+}

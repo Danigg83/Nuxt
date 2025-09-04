@@ -1,6 +1,6 @@
 <template>
     
-    <nav class="bg-green-100 p-4 rounded shadow-md">
+    <nav class="admin-menu bg-green-100 p-4 rounded shadow-md">
   <ul class="flex flex-wrap gap-4">
     <li>
       <NuxtLink to="/" class="px-3 py-2 rounded hover:bg-green-200 transition">Inicio</NuxtLink>

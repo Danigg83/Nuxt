@@ -3,7 +3,7 @@
     <h1 class="text-2xl font-bold">Página Account</h1>
   </div>
 
-  <div class="flex flex-col md:flex-row gap-4 p-4">
+  <div class="link-acount flex flex-col md:flex-row gap-4 p-4">
     <!-- Columna de botones -->
     <div class="md:w-1/2 flex flex-col gap-3">
       <NuxtLink

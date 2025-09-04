@@ -10,11 +10,11 @@
     <!--   <li>
         <NuxtLink to="/item/1" class="px-3 py-2 rounded hover:bg-blue-200 transition">Ir al Item 1</NuxtLink>
       </li> -->
-      <li>
+     <!--  <li>
         <NuxtLink :to="{ name: 'item-id', params: { id: 1 } }" class="px-3 py-2 rounded hover:bg-blue-200 transition">
           Ir al Item 1 (name route)
         </NuxtLink>
-      </li>
+      </li> -->
       <li>
         <NuxtLink to="/empresa" class="px-3 py-2 rounded hover:bg-blue-200 transition">Empresa</NuxtLink>
       </li>
