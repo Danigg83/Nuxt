@@ -16,13 +16,13 @@
         </NuxtLink>
       </li> -->
       <li>
-        <NuxtLink to="/empresa" class="px-3 py-2 rounded hover:bg-blue-200 transition">Empresa</NuxtLink>
+        <NuxtLink to="/personalizada" class="px-3 py-2 rounded hover:bg-blue-200 transition">Personalizada</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/empresa/show" class="px-3 py-2 rounded hover:bg-blue-200 transition">Empresa Show</NuxtLink>
+        <NuxtLink to="/personalizada/show" class="px-3 py-2 rounded hover:bg-blue-200 transition">Personalizada Show</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/empresa/2" class="px-3 py-2 rounded hover:bg-blue-200 transition">Empresa id: 2</NuxtLink>
+        <NuxtLink to="/personalizada/2" class="px-3 py-2 rounded hover:bg-blue-200 transition">Personalizada id: 2</NuxtLink>
       </li>
       <li>
       <NuxtLink to="/gallery" class="px-3 py-2 rounded hover:bg-amber-200 transition">gallery</NuxtLink>
