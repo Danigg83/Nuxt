@@ -6,7 +6,11 @@ export default defineNuxtRouteMiddleware((to) => {
   const flash = useFlashStore()
 
   if (to.path === '/item/2') {
-    flash.setMessage('No puedes acceder al item 2, redirigido al inicio 🚀')
+    /* flash.addMessage('Operación correcta ✅', 'success')
+    flash.addMessage('Ha ocurrido un error ❌', 'error')
+    flash.addMessage('Cuidado ⚠️', 'warning') */
+    flash.addMessage('No puedes acceder al item 2, redirigido al inicio 🚀', 'warning')
+
     return navigateTo('/')
   }
 

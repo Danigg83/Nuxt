@@ -1,15 +1,29 @@
 import { defineStore } from 'pinia'
 
+type FlashType = 'success' | 'error' | 'warning'
+
+interface FlashMessage {
+  id: number
+  text: string
+  type: FlashType
+}
+
 export const useFlashStore = defineStore('flash', {
   state: () => ({
-    message: '' as string,
+    messages: [] as FlashMessage[],
   }),
   actions: {
-    setMessage(msg: string) {
-      this.message = msg
+    addMessage(text: string, type: FlashType = 'success') {
+      const id = Date.now()
+      this.messages.push({ id, text, type })
+
+      // borrar automáticamente después de 10s
       setTimeout(() => {
-        this.message = ''
-      }, 10000) // el mensaje se borra a los 3s
+        this.removeMessage(id)
+      }, 10000)
+    },
+    removeMessage(id: number) {
+      this.messages = this.messages.filter(m => m.id !== id)
     },
   },
 })
