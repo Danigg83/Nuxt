@@ -36,6 +36,10 @@
           Ir al Item 1 (name route)
         </NuxtLink>
       </li> -->
+
+      <li>
+        <NuxtLink to="/animation" class="px-3 py-2 rounded hover:bg-blue-200 transition">Animation</NuxtLink>
+      </li> 
       <li>
         <NuxtLink to="/personalizada" class="px-3 py-2 rounded hover:bg-blue-200 transition">Personalizada</NuxtLink>
       </li>

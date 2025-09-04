@@ -9,5 +9,9 @@ export default defineNuxtConfig({
       autoprefixer: {}
     }
   },
-  modules: ['@nuxt/content', '@pinia/nuxt']
+  modules: [
+    '@nuxt/content',
+    '@pinia/nuxt',
+    'v-gsap-nuxt'
+  ]
 })
