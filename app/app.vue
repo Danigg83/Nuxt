@@ -1,4 +1,10 @@
 <template>
+
+   <!-- Mensaje global -->
+   <div v-if="flash.message" class="fixed top-4 right-4 bg-green-500 text-white px-4 py-2 rounded shadow">
+      {{ flash.message }}
+    </div>
+
   <!-- <div class="bg-red-500 p-6 text-white">Test Tailwind</div> -->
   <NuxtLayout />
   <!-- <NuxtPage /> -->
@@ -13,5 +19,9 @@ useHead({
     { property: 'og:site_name', content: 'Mi Proyecto Nuxt' }
   ]
 })
+
+import { useFlashStore } from '~/stores/flash'
+
+const flash = useFlashStore()
 </script>
 
