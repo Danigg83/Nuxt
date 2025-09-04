@@ -3,7 +3,8 @@
     <header class="bg-white shadow p-4">
       <h1 class="text-xl font-bold">Mi Proyecto</h1>
     </header>
-    <Menu  v-if="$route.path !== '/gallery'" />
+    <!-- <Menu  v-if="$route.path !== '/gallery'" />-->
+      <Menu />
     <main>
       <NuxtPage />
     </main>

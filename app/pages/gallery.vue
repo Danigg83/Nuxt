@@ -36,5 +36,9 @@
   </template>
   
   <script setup>
+    definePageMeta({
+      layout: 'no-menu' 
+    })
+
   </script>
   

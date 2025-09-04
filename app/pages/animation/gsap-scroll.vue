@@ -1,7 +1,7 @@
 <template>
     <div class="space-y-8">
       <div
-        v-for="i in 5"
+        v-for="i in 20"
         :key="i"
         class="p-8 bg-sky-600 rounded text-white text-center text-xl"
         ref="bloques"

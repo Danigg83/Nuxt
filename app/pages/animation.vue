@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col md:flex-row gap-4 p-4">
     <!-- Columna de menú -->
-    <div class="md:w-1/4 flex flex-col gap-3">
+    <div class="md:w-1/4 flex flex-col gap-3 px-2">
       <NuxtLink
         to="/animation"
         class="bg-sky-600 text-white px-4 py-2 rounded hover:bg-sky-500 text-center"
