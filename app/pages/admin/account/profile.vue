@@ -47,6 +47,10 @@ const logout = async () => {
   flash.addMessage('Sesión cerrada ✅', 'success')
   router.push('/account/login')
 }
+
+definePageMeta({
+  layout: 'admin'
+})
 </script>
 
 <style scoped>

@@ -7,6 +7,7 @@ export default defineNuxtRouteMiddleware(async (to) => {
 
   const supabase = useSupabase()
   const { data: { session } } = await supabase.auth.getSession()
+  const flash = useFlashStore()
 
   //console.log('Auth-Supabase Global middleware path:', to.path, ' | Session:', session)
 
@@ -19,6 +20,8 @@ export default defineNuxtRouteMiddleware(async (to) => {
   if ((to.path.startsWith('/admin') ||
        to.path.startsWith('/account/profile') ||
        to.path.startsWith('/account/settings')) && !session) {
+
+        flash.addMessage('Usuario no registrado', 'error')
     return navigateTo('/account/login')
   }
 

@@ -76,7 +76,7 @@ const registerUser = async () => {
     console.log(1);
     
     success.value = 'Usuario registrado correctamente. Revisa tu email para verificar la cuenta ✅'
-    flash.addMessage('Registro exitoso ✅', 'success')
+    //flash.addMessage('Registro exitoso ✅', 'success')
     setTimeout(() => router.push('/account/login'), 3500)
   }
 }

@@ -14,6 +14,9 @@
     <li>
       <NuxtLink to="/admin/settings" class="px-3 py-2 rounded hover:bg-green-200 transition">Settings</NuxtLink>
     </li>
+    <li>
+      <NuxtLink to="/admin/account" class="px-3 py-2 rounded hover:bg-lime-200 transition">account</NuxtLink>
+    </li>
     
     <li>
       <NuxtLink to="/admin/personalizada" class="px-3 py-2 rounded hover:bg-green-200 transition">Personalizada admin</NuxtLink>

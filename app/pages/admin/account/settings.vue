@@ -73,4 +73,8 @@ const updateProfile = async () => {
   newPassword.value = ''
   confirmPassword.value = ''
 }
+
+definePageMeta({
+  layout: 'admin'
+})
 </script>
