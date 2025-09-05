@@ -40,7 +40,7 @@ onMounted(async () => {
   }
 })
 
-const goToSettings = () => router.push('/account/settings')
+const goToSettings = () => router.push('/admin/account/settings')
 
 const logout = async () => {
   await supabase.auth.signOut()

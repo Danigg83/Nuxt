@@ -13,8 +13,8 @@ export default defineNuxtRouteMiddleware((to) => {
   }
 
   if ((to.path.startsWith('/admin') ||
-       to.path.startsWith('/account/profile') ||
-       to.path.startsWith('/account/settings')) && !user.value) {
+       to.path.startsWith('/admin/account/profile') ||
+       to.path.startsWith('/admin/account/settings')) && !user.value) {
     router.push('/account/login')
   }
 })
